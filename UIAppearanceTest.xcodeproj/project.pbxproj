@@ -13,6 +13,9 @@
 		24C77B9314D154AC00E7CF9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24C77B9114D154AC00E7CF9F /* InfoPlist.strings */; };
 		24C77B9514D154AC00E7CF9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C77B9414D154AC00E7CF9F /* main.m */; };
 		24C77B9914D154AC00E7CF9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C77B9814D154AC00E7CF9F /* AppDelegate.m */; };
+		24C77BA114D154CE00E7CF9F /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C77BA014D154CE00E7CF9F /* TestView.m */; };
+		24C77BA914D156AD00E7CF9F /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C77BA714D156AD00E7CF9F /* TestViewController.m */; };
+		24C77BAA14D156AD00E7CF9F /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24C77BA814D156AD00E7CF9F /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,17 @@
 		24C77B8814D154AC00E7CF9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		24C77B8A14D154AC00E7CF9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24C77B8C14D154AC00E7CF9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		24C77B9014D154AC00E7CF9F /* UIAppearanceTest-Info.plist */ = {isa = PBXFileReference; path = "UIAppearanceTest-Info.plist"; sourceTree = "<group>"; };
+		24C77B9014D154AC00E7CF9F /* UIAppearanceTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIAppearanceTest-Info.plist"; sourceTree = "<group>"; };
 		24C77B9214D154AC00E7CF9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24C77B9414D154AC00E7CF9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		24C77B9614D154AC00E7CF9F /* UIAppearanceTest-Prefix.pch */ = {isa = PBXFileReference; path = "UIAppearanceTest-Prefix.pch"; sourceTree = "<group>"; };
-		24C77B9714D154AC00E7CF9F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		24C77B9614D154AC00E7CF9F /* UIAppearanceTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAppearanceTest-Prefix.pch"; sourceTree = "<group>"; };
+		24C77B9714D154AC00E7CF9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24C77B9814D154AC00E7CF9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24C77B9F14D154CE00E7CF9F /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		24C77BA014D154CE00E7CF9F /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		24C77BA614D156AD00E7CF9F /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		24C77BA714D156AD00E7CF9F /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		24C77BA814D156AD00E7CF9F /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,11 @@
 				24C77B9714D154AC00E7CF9F /* AppDelegate.h */,
 				24C77B9814D154AC00E7CF9F /* AppDelegate.m */,
 				24C77B8F14D154AC00E7CF9F /* Supporting Files */,
+				24C77B9F14D154CE00E7CF9F /* TestView.h */,
+				24C77BA014D154CE00E7CF9F /* TestView.m */,
+				24C77BA614D156AD00E7CF9F /* TestViewController.h */,
+				24C77BA714D156AD00E7CF9F /* TestViewController.m */,
+				24C77BA814D156AD00E7CF9F /* TestViewController.xib */,
 			);
 			path = UIAppearanceTest;
 			sourceTree = "<group>";
@@ -142,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24C77B9314D154AC00E7CF9F /* InfoPlist.strings in Resources */,
+				24C77BAA14D156AD00E7CF9F /* TestViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +168,8 @@
 			files = (
 				24C77B9514D154AC00E7CF9F /* main.m in Sources */,
 				24C77B9914D154AC00E7CF9F /* AppDelegate.m in Sources */,
+				24C77BA114D154CE00E7CF9F /* TestView.m in Sources */,
+				24C77BA914D156AD00E7CF9F /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
