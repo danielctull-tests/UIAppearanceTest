@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24C77B8914D154AC00E7CF9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C77B8814D154AC00E7CF9F /* UIKit.framework */; };
+		24C77B8B14D154AC00E7CF9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C77B8A14D154AC00E7CF9F /* Foundation.framework */; };
+		24C77B8D14D154AC00E7CF9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C77B8C14D154AC00E7CF9F /* CoreGraphics.framework */; };
+		24C77B9314D154AC00E7CF9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24C77B9114D154AC00E7CF9F /* InfoPlist.strings */; };
+		24C77B9514D154AC00E7CF9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C77B9414D154AC00E7CF9F /* main.m */; };
+		24C77B9914D154AC00E7CF9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C77B9814D154AC00E7CF9F /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24C77B8414D154AC00E7CF9F /* UIAppearanceTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIAppearanceTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C77B8814D154AC00E7CF9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		24C77B8A14D154AC00E7CF9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24C77B8C14D154AC00E7CF9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		24C77B9014D154AC00E7CF9F /* UIAppearanceTest-Info.plist */ = {isa = PBXFileReference; path = "UIAppearanceTest-Info.plist"; sourceTree = "<group>"; };
+		24C77B9214D154AC00E7CF9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24C77B9414D154AC00E7CF9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24C77B9614D154AC00E7CF9F /* UIAppearanceTest-Prefix.pch */ = {isa = PBXFileReference; path = "UIAppearanceTest-Prefix.pch"; sourceTree = "<group>"; };
+		24C77B9714D154AC00E7CF9F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		24C77B9814D154AC00E7CF9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24C77B8114D154AC00E7CF9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C77B8914D154AC00E7CF9F /* UIKit.framework in Frameworks */,
+				24C77B8B14D154AC00E7CF9F /* Foundation.framework in Frameworks */,
+				24C77B8D14D154AC00E7CF9F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24C77B7914D154AC00E7CF9F = {
+			isa = PBXGroup;
+			children = (
+				24C77B8E14D154AC00E7CF9F /* UIAppearanceTest */,
+				24C77B8714D154AC00E7CF9F /* Frameworks */,
+				24C77B8514D154AC00E7CF9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24C77B8514D154AC00E7CF9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24C77B8414D154AC00E7CF9F /* UIAppearanceTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24C77B8714D154AC00E7CF9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24C77B8814D154AC00E7CF9F /* UIKit.framework */,
+				24C77B8A14D154AC00E7CF9F /* Foundation.framework */,
+				24C77B8C14D154AC00E7CF9F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24C77B8E14D154AC00E7CF9F /* UIAppearanceTest */ = {
+			isa = PBXGroup;
+			children = (
+				24C77B9714D154AC00E7CF9F /* AppDelegate.h */,
+				24C77B9814D154AC00E7CF9F /* AppDelegate.m */,
+				24C77B8F14D154AC00E7CF9F /* Supporting Files */,
+			);
+			path = UIAppearanceTest;
+			sourceTree = "<group>";
+		};
+		24C77B8F14D154AC00E7CF9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24C77B9014D154AC00E7CF9F /* UIAppearanceTest-Info.plist */,
+				24C77B9114D154AC00E7CF9F /* InfoPlist.strings */,
+				24C77B9414D154AC00E7CF9F /* main.m */,
+				24C77B9614D154AC00E7CF9F /* UIAppearanceTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24C77B8314D154AC00E7CF9F /* UIAppearanceTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C77B9C14D154AC00E7CF9F /* Build configuration list for PBXNativeTarget "UIAppearanceTest" */;
+			buildPhases = (
+				24C77B8014D154AC00E7CF9F /* Sources */,
+				24C77B8114D154AC00E7CF9F /* Frameworks */,
+				24C77B8214D154AC00E7CF9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIAppearanceTest;
+			productName = UIAppearanceTest;
+			productReference = 24C77B8414D154AC00E7CF9F /* UIAppearanceTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24C77B7B14D154AC00E7CF9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Daniel Tull Limited";
+			};
+			buildConfigurationList = 24C77B7E14D154AC00E7CF9F /* Build configuration list for PBXProject "UIAppearanceTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24C77B7914D154AC00E7CF9F;
+			productRefGroup = 24C77B8514D154AC00E7CF9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24C77B8314D154AC00E7CF9F /* UIAppearanceTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24C77B8214D154AC00E7CF9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C77B9314D154AC00E7CF9F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24C77B8014D154AC00E7CF9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C77B9514D154AC00E7CF9F /* main.m in Sources */,
+				24C77B9914D154AC00E7CF9F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24C77B9114D154AC00E7CF9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24C77B9214D154AC00E7CF9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24C77B9A14D154AC00E7CF9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24C77B9B14D154AC00E7CF9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24C77B9D14D154AC00E7CF9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIAppearanceTest/UIAppearanceTest-Prefix.pch";
+				INFOPLIST_FILE = "UIAppearanceTest/UIAppearanceTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		24C77B9E14D154AC00E7CF9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIAppearanceTest/UIAppearanceTest-Prefix.pch";
+				INFOPLIST_FILE = "UIAppearanceTest/UIAppearanceTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24C77B7E14D154AC00E7CF9F /* Build configuration list for PBXProject "UIAppearanceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C77B9A14D154AC00E7CF9F /* Debug */,
+				24C77B9B14D154AC00E7CF9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C77B9C14D154AC00E7CF9F /* Build configuration list for PBXNativeTarget "UIAppearanceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C77B9D14D154AC00E7CF9F /* Debug */,
+				24C77B9E14D154AC00E7CF9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24C77B7B14D154AC00E7CF9F /* Project object */;
+}
