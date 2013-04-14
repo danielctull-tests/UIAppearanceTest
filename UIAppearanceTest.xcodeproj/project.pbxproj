@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2445A489171AE790006DE40F /* BarButtonItemBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 2445A485171AE790006DE40F /* BarButtonItemBackground.png */; };
+		2445A48A171AE790006DE40F /* BarButtonItemBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2445A486171AE790006DE40F /* BarButtonItemBackground@2x.png */; };
+		2445A48B171AE790006DE40F /* NavigationBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 2445A487171AE790006DE40F /* NavigationBarBackground.png */; };
+		2445A48C171AE790006DE40F /* NavigationBarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2445A488171AE790006DE40F /* NavigationBarBackground@2x.png */; };
+		2445A48E171AE7B3006DE40F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2445A48D171AE7B3006DE40F /* Default-568h@2x.png */; };
 		24C77B8914D154AC00E7CF9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C77B8814D154AC00E7CF9F /* UIKit.framework */; };
 		24C77B8B14D154AC00E7CF9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C77B8A14D154AC00E7CF9F /* Foundation.framework */; };
 		24C77B8D14D154AC00E7CF9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C77B8C14D154AC00E7CF9F /* CoreGraphics.framework */; };
@@ -19,6 +24,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2445A485171AE790006DE40F /* BarButtonItemBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BarButtonItemBackground.png; sourceTree = "<group>"; };
+		2445A486171AE790006DE40F /* BarButtonItemBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BarButtonItemBackground@2x.png"; sourceTree = "<group>"; };
+		2445A487171AE790006DE40F /* NavigationBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationBarBackground.png; sourceTree = "<group>"; };
+		2445A488171AE790006DE40F /* NavigationBarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationBarBackground@2x.png"; sourceTree = "<group>"; };
+		2445A48D171AE7B3006DE40F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../../Developer/UIAppearanceTest/UIAppearanceTest/Default-568h@2x.png"; sourceTree = "<group>"; };
 		24C77B8414D154AC00E7CF9F /* UIAppearanceTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIAppearanceTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C77B8814D154AC00E7CF9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		24C77B8A14D154AC00E7CF9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,6 +105,11 @@
 		24C77B8F14D154AC00E7CF9F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2445A48D171AE7B3006DE40F /* Default-568h@2x.png */,
+				2445A485171AE790006DE40F /* BarButtonItemBackground.png */,
+				2445A486171AE790006DE40F /* BarButtonItemBackground@2x.png */,
+				2445A487171AE790006DE40F /* NavigationBarBackground.png */,
+				2445A488171AE790006DE40F /* NavigationBarBackground@2x.png */,
 				24C77B9014D154AC00E7CF9F /* UIAppearanceTest-Info.plist */,
 				24C77B9114D154AC00E7CF9F /* InfoPlist.strings */,
 				24C77B9414D154AC00E7CF9F /* main.m */,
@@ -156,6 +171,11 @@
 			files = (
 				24C77B9314D154AC00E7CF9F /* InfoPlist.strings in Resources */,
 				24C77BAA14D156AD00E7CF9F /* TestViewController.xib in Resources */,
+				2445A489171AE790006DE40F /* BarButtonItemBackground.png in Resources */,
+				2445A48A171AE790006DE40F /* BarButtonItemBackground@2x.png in Resources */,
+				2445A48B171AE790006DE40F /* NavigationBarBackground.png in Resources */,
+				2445A48C171AE790006DE40F /* NavigationBarBackground@2x.png in Resources */,
+				2445A48E171AE7B3006DE40F /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +293,7 @@
 				24C77B9E14D154AC00E7CF9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

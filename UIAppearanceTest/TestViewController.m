@@ -9,10 +9,15 @@
 #import "TestViewController.h"
 
 @implementation TestViewController
-@synthesize testView;
 
 - (id)init {
-	return [self initWithNibName:NSStringFromClass([self class]) bundle:nil];
+	self = [super init];
+	if (!self) return nil;
+	self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Item"
+																			  style:UIBarButtonItemStylePlain
+																			 target:nil
+																			 action:NULL];
+	return self;
 }
 
 - (IBAction)setRedYellow:(id)sender {

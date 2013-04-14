@@ -14,10 +14,17 @@
 @synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+	
+	[[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"NavigationBarBackground"]
+									   forBarMetrics:UIBarMetricsDefault];
+	[[UIBarButtonItem appearance] setBackgroundImage:[UIImage imageNamed:@"BarButtonItemBackground"]
+											forState:UIControlStateNormal
+										  barMetrics:UIBarMetricsDefault];
+	
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	
-	UIViewController *viewController = [[TestViewController alloc] init];
-	self.window.rootViewController = viewController;
+	UIViewController *viewController = [TestViewController new];
+	self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:viewController];
 	
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
